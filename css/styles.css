@@ -95,7 +95,9 @@ body {
 }
 
 
-/* HIDDEN CONTAINER */
+
+/* ------------ HIDDEN CONTAINER ------------  */
+
 .main__hidden-container {
     display: grid;
     gap: 1.5rem;
