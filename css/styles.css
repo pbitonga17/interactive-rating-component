@@ -28,13 +28,14 @@ body {
     margin: 0 auto;
     padding: 1.5rem;
     border-radius: 1rem;
+
 }
-.main__first-container {
+.container1 {
     display: grid;
-    gap: 1.5rem;
-    
+    gap: 1.5rem;   
 }
-.main__first-container img {
+
+.container1 img {
     background-color: hsla(217, 12%, 63%, 0.15);
     border-radius: 50%;
     padding: 1rem;
@@ -74,6 +75,9 @@ body {
     background-color: hsl(25, 97%, 53%);
     transform: scale(1);
 }
+.btn:focus {
+    background-color: hsl(25, 97%, 53%);
+}
 .submit {
     border-radius: 25px;
     width: 100%;
@@ -98,11 +102,18 @@ body {
 
 /* ------------ HIDDEN CONTAINER ------------  */
 
-.main__hidden-container {
+
+.container2 {
     display: grid;
-    gap: 1.5rem;
     place-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
     display: none;
+}
+.container2 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .selected {
     background-color: hsla(217, 12%, 63%, 0.15);
@@ -111,6 +122,9 @@ body {
     border-radius: 25px;
 
     font-size: 0.8rem;
+    text-align: center;
+    width: 55%;
+    margin: 1.5rem auto;
 }
 .hidden-text {
     text-align: center;
